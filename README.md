@@ -18,12 +18,13 @@ Set the Connect-Four/Executable/CMakeLists.txt as executable and run the program
 To run the unit tests, you can either set the executable to “Tests” or run the tests in the testing tab
 
 # Playing the game
-When the game is started, you should get the figure shown below. 
+When the game is started, you should get Figure1 from this repository. 
 In this game, O means that the position on the field is empty and a disc can still be put there. R means that a red disc is present and likewise Y is a yellow disc. 
 
   
-You as the player are playing as red and should get four R’s in a row. The opponent is a randomized CPU that puts a yellow disc in one of the positions each round and wins if there are four Y’s in a row. 
+You as the player are playing as red and should get four R’s in a row. The opponent is a randomized CPU that puts a yellow disc in one of the positions each round and wins if there are four Y’s in a row. See Figure2 for an example of a finished game. 
  
 If you put in an invalid integer, the game assigns a random value between 1 and 7, so make sure not to use an invalid input, or it might lose you the game!
-The game ends when any player has obtained four of their discs in a row, or when the maximum number of rounds has passed and the field is full of discs without having four of the same color in a row. 
+
+The game ends when any player has obtained four of their discs in a row, or when the maximum number of rounds has passed and the field is full of discs without having four of the same color in a row. Please enjoy the game!
 
