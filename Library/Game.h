@@ -9,7 +9,7 @@ class Game
         Game() = default;
 
         void playGame(Field &field);
-        void takeTurn(int columnNumber, Color color, Field& field);
+        void takeTurn(int columnNumber, const Color &color, Field& field);
 
     private:   
         int m_round = 1;

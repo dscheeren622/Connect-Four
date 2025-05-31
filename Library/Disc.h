@@ -6,10 +6,10 @@
 class Disc
 {
     public:
-        explicit Disc(Position &position);
+        explicit Disc(const Position &position);
         virtual ~Disc() = default;
         
-        Position getPosition();
+        Position &getPosition();
 
     private:
         Position m_position;

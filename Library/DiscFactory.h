@@ -4,7 +4,6 @@
 #include "ColorEnum.h"
 #include "Field.cpp"
 
-
 class DiscFactory
 {
     public:

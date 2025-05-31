@@ -1,12 +1,12 @@
 #pragma once
 #include "Disc.h"
 
-Disc::Disc(Position &position)
+Disc::Disc(const Position &position)
 :
 m_position(position)
 {}
 
-Position Disc::getPosition()
+Position &Disc::getPosition()
 {
     return m_position;
 }
